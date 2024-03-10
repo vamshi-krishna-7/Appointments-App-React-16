@@ -1,0 +1,155 @@
+/* Write your CSS here */
+
+.app-container {
+  background-image: linear-gradient(to bottom, #fbc7c4, #9796f0);
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-container {
+  background-color: #ffffff;
+  border-radius: 8px;
+  width: 85%;
+  padding: 26px;
+}
+
+.add-appointment-heading {
+  color: #171f46;
+  font-size: 30px;
+  font-family: Roboto;
+  font-weight: 600;
+}
+
+.form-img-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+}
+
+.label-text {
+  color: #b5b7c4;
+  font-size: 12px;
+  font-family: Roboto;
+  font-weight: 500;
+  padding-bottom: 5px;
+}
+
+.title-input {
+  color: #131415;
+  font-family: 'Roboto';
+  font-size: 12px;
+  border: 1px solid #7e858e;
+  border-radius: 4px;
+  height: 40px;
+  padding-left: 16px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  margin-bottom: 24px;
+  outline: none;
+}
+
+.date-input {
+  color: #131415;
+  font-family: 'Roboto';
+  font-size: 12px;
+  border: 1px solid #7e858e;
+  border-radius: 4px;
+  height: 40px;
+  padding-left: 16px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  margin-bottom: 24px;
+  outline: none;
+}
+
+.add-button {
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  background-color: #8b5cf6;
+  width: 50px;
+  padding: 6px;
+  font-size: 10px;
+  font-weight: 400;
+  cursor: pointer;
+  outline: none;
+}
+
+.img-size {
+  width: 70%;
+}
+
+.break-line {
+  color: #000000;
+  margin-top: 12px;
+}
+
+.appointment-Starred-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.appointments-heading {
+  color: #171f46;
+  font-size: 20px;
+  font-family: Roboto;
+  font-weight: 500;
+}
+
+.star-button {
+  background-color: transparent;
+  border: 1px solid #9897f0;
+  cursor: pointer;
+  outline: none;
+  width: 50px;
+  font-size: 10px;
+  font-weight: 600;
+  color: #8b5cf6;
+  border-radius: 12px;
+  height: 22px;
+  align-self: center;
+}
+
+.appointment-list-container {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+}
+
+@media screen and (max-width: 768px) {
+  .card-container {
+    padding: 10px;
+  }
+  .add-appointment-heading {
+    font-size: 18px;
+  }
+  .form-container {
+    width: 50%;
+  }
+  .title-input {
+    font-size: 10px;
+    height: 30px;
+    margin-bottom: 18px;
+  }
+  .date-input {
+    font-size: 10px;
+    height: 30px;
+    margin-bottom: 18px;
+  }
+  .img-size {
+    width: 90%;
+    margin-left: 5px;
+  }
+  .appointments-heading {
+    font-size: 14px;
+  }
+}

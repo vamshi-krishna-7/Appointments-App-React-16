@@ -1,0 +1,37 @@
+/* Write your CSS here */
+
+.list-item {
+  border: 1px solid #b5b7c4;
+  border-radius: 8px;
+  display: flex;
+  padding-left: 10px;
+  margin-right: 12px;
+  margin-bottom: 12px;
+}
+
+.star-button {
+  border: none;
+  background-color: transparent;
+  align-self: flex-start;
+  padding-top: 10px;
+  cursor: pointer;
+  outline: none;
+}
+
+.title-head {
+  color: #171f46;
+  font-size: 12px;
+  font-family: Roboto;
+  font-weight: 600;
+}
+
+.date-text {
+  color: #b5b7c4;
+  font-size: 11px;
+  font-family: Roboto;
+  font-weight: 500;
+}
+
+.star-img {
+  width: 18px;
+}
